@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvWelcomeTopStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WelcomeStartTop"
+        android:textAlignment="center"
+        android:textColor="#C71616"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvWelcomeBotStart" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="900" />
+
+    <Button
+        android:id="@+id/btnStaticBookMain"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/StaticBookMainButton" />
+
+    <Button
+        android:id="@+id/btnDynamicBookMain"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DynamicBookMainButton" />
+
+    <Button
+        android:id="@+id/btnMailSendBookMain"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MailSendMainButton" />
+</LinearLayout>

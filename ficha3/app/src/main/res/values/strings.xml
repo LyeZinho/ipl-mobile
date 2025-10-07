@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">books</string>
+    <string name="EmailLogin">Email</string>
+    <string name="PasswordLogin">Password</string>
+    <string name="BtnLogin">Login</string>
+    <string name="WelcomeStartTop">Bem Vindo!</string>
+    <string name="tvWelcomeBotStart" />
+    <string name="StaticBookMainButton">LIVRO ESTÁTICO</string>
+    <string name="DynamicBookMainButton">LIVRO DINÁMICO</string>
+    <string name="MailSendMainButton">ENVIAR EMAIL</string>
+</resources>
